@@ -1,0 +1,38 @@
+{
+  "name": "moddable-espnow",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "check": "biome check .",
+    "format": "biome format --write .",
+    "typecheck": "tsc --noEmit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stc1988/moddable-espnow.git"
+  },
+  "keywords": [
+    "moddable",
+    "espnow",
+    "esp-idf",
+    "js",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Satoshi Tanaka",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/stc1988/moddable-espnow/issues"
+  },
+  "homepage": "https://github.com/stc1988/moddable-espnow#readme",
+  "devDependencies": {
+    "@biomejs/biome": "^2.6.8",
+    "@moddable/typings": "^10.1.1",
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "include": ["./core", "$(MODDABLE)/modules/embedded/network/interface/wifi"],
+  "modules": {
+    "espnow": "./espnow"
+  }
+}
